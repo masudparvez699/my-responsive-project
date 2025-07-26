@@ -1,4 +1,4 @@
-/* shared syles  */
+/* shared styles  */
 * {
     margin: 0px;
     padding: 0px
@@ -78,6 +78,7 @@ nav ul li {
     font-size: 1.4rem;
     padding-bottom: 20px;
 }
+
 /* our plant section related styles  */
 .our-plants {
     margin-bottom: 100px;
@@ -182,10 +183,7 @@ nav ul li {
     height: 430px;
 }
 
-.image-column-normal {
-    
-    
-}
+.image-column-normal {}
 
 .bloom-plant {
     height: 202px;
@@ -247,6 +245,7 @@ nav ul li {
     text-align: center;
     position: relative;
 }
+
 .zabo-plant {
     text-align: center;
     position: relative;
@@ -257,6 +256,7 @@ nav ul li {
     background-repeat: no-repeat;
     border-radius: 10px;
 }
+
 .zabo {
     position: absolute;
     top: 50%;
@@ -269,15 +269,89 @@ nav ul li {
 
 
 
+/* join section related styles  */
+.join {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    /* width: 100%; */
+    background-image: url("../assets/news-letter-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 540px;
+    position: relative;
+
+}
+
+.join-the-community {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.join-title {
+    font-size: 2.8rem;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.input-email {
+    width: 50%;
+    height: 50px;
+    padding: 3px 20px;
+    margin: -7px;
+    border: none;
+}
+
+.subscribe {
+    border-radius: none;
+    width: fit-content;
+}
+
+
+/* footer section related styles  */
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+.link-items {
+    list-style: none;
+    padding: 10px;
+}
+
+.links {
+    text-decoration: none;
+    font-family: 'Inter';
+    color: #6B7280;
+    font-size: 1rem;
+
+}
+
+.footer-description {
+    font-size: 1.5rem;
+}
+
+.footer-icon {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: -130px;
+}
 
 
 
 
-
-
-
-/* responsive design for smaller devices  */ 
-@media screen and (max-width: 576px) 
+/* responsive design for smaller devices  */
+@media screen and (max-width: 576px) {
 
     body section,
     footer,
@@ -299,19 +373,18 @@ nav ul li {
         font-size: 3rem;
     }
 
-   .plants-container {
+    .plants-container {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .plant {
-        /* box-sizing: border-box; */
-    }
+
+
 
     .plant-image {
         width: calc(100% - 10px);
     }
 
-  .plants-lover {
+    .plants-lover {
         flex-direction: column;
     }
 
@@ -322,3 +395,35 @@ nav ul li {
     .plant-lover-image {
         width: 100%;
     }
+
+
+    .description-list {
+        padding-left: 15px;
+    }
+
+    .join-title {
+        font-size: 1.25rem;
+    }
+
+    .join-the-community {
+        padding-left: 10px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .footer-icon {
+        margin: 10px;
+    }
+
+    .latest-deal-images {
+        flex-direction: column;
+    }
+
+    .bloom-plant {
+        width: 100%;
+    }
+}
