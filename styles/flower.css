@@ -1,0 +1,107 @@
+/* shared syles  */
+* {
+    margin: 0px;
+    padding: 0px
+}
+
+body section,
+header,
+footer {
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.noto-serif {
+    font-family: 'Noto Serif', serif;
+}
+
+.inter {
+    font-family: 'Inter';
+}
+
+.dark-50 {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* nav related styles  */
+nav {
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 120px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+.nav-items {
+    gap: 45px;
+}
+
+.list-item-1 {
+    font-weight: 600;
+    color: #252432;
+}
+
+.list-item {
+    color: #8987A1;
+}
+
+.list-item-2 {
+    color: black;
+}
+
+/* banner related styles  */
+.banner {
+    align-items: flex-end;
+}
+
+.banner-title {
+    font-size: 4rem;
+    margin-bottom: 15px;
+}
+
+.fresh-color {
+    color: #E95A08;
+}
+
+.banner-description {
+    font-size: 1.4rem;
+    padding-bottom: 20px;
+}
+
+
+
+/* responsive design for smaller devices  */
+@media screen and (max-width: 576px) 
+
+    body section,
+    footer,
+    header {
+        padding: 20px;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .list-item-1,
+    .list-item {
+        display: none;
+    }
+
+    .banner-title {
+        font-size: 3rem;
+    }
+
+   
