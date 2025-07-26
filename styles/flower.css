@@ -121,6 +121,35 @@ nav ul li {
     font-weight: 600;
 }
 
+/* plants lover section related styles  */
+.plants-lover {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 120px;
+}
+
+.plant-lover-image-1 {
+    width: 276px;
+    padding-left: 360px;
+    /* padding-top: 200px; */
+    position: relative;
+    margin-bottom: -200px;
+}
+
+.description-title {
+    font-size: 3.1rem;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.description-item {
+    font-size: 1.4rem;
+    padding: 20px;
+}
+
+
+
 
 
 
@@ -163,3 +192,14 @@ nav ul li {
         width: calc(100% - 10px);
     }
 
+  .plants-lover {
+        flex-direction: column;
+    }
+
+    .plant-lover-image-1 {
+        display: none;
+    }
+
+    .plant-lover-image {
+        width: 100%;
+    }
