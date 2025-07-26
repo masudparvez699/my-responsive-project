@@ -148,6 +148,125 @@ nav ul li {
     padding: 20px;
 }
 
+/* latest deal related styles  */
+.latest-deal-writings {
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.latest-deal-title {
+    font-size: 3.1rem;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.latest-deal-description {
+    font-size: 1.4rem;
+    font-weight: normal;
+}
+
+.latest-deal-images {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 120px;
+}
+
+.latest-deal-images {
+    gap: 30px;
+    color: white;
+}
+
+.image-column-huge {
+    width: 367px;
+    height: 430px;
+}
+
+.image-column-normal {
+    
+    
+}
+
+.bloom-plant {
+    height: 202px;
+    background-image: url('../assets/deal-bloom.png');
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-bottom: 26px;
+    text-align: center;
+    position: relative;
+}
+
+.bloom,
+.ana {
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    gap: 15px;
+}
+
+.discount-amount {
+    font-size: 1.4rem;
+    font-weight: bold;
+    border-right: 2px solid white;
+    padding-right: 10px;
+}
+
+.plant-identity {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.shop-now {
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    padding: 10px 0px;
+
+}
+
+.latest-deal a {
+    text-decoration: underline;
+    color: white;
+}
+
+.ana-plant {
+    height: 202px;
+    background-image: url('../assets/deal-ana.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+.zabo-plant {
+    text-align: center;
+    position: relative;
+    width: 723px;
+    height: 430px;
+    background-image: url('../assets/deal-zabo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.zabo {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    gap: 15px;
+    justify-content: center;
+}
+
 
 
 
